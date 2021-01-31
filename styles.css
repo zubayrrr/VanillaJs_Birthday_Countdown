@@ -184,7 +184,7 @@ Countdown Timer
 }
 .gift-info h3 {
   text-transform: uppercase;
-  color: var(--clr-primary-1);
+  color: var(--clr-primary-1q);
 }
 .gift-info p {
   color: var(--clr-grey-6);
@@ -227,8 +227,9 @@ Countdown Timer
   letter-spacing: 2px;
   font-size: 0.85rem;
 }
-.deadline h4:not(.expired) {
+.deadline h2:not(.expired) {
   font-size: 2rem;
+  color: var(--clr-red-light);
   margin-bottom: 0.25rem;
   letter-spacing: var(--spacing);
 }
